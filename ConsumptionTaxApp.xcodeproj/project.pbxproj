@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805EE09927366F76006F9A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE09827366F76006F9A7E /* AppDelegate.swift */; };
+		805EE09B27366F76006F9A7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE09A27366F76006F9A7E /* SceneDelegate.swift */; };
+		805EE09D27366F76006F9A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE09C27366F76006F9A7E /* ViewController.swift */; };
+		805EE0A027366F76006F9A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805EE09E27366F76006F9A7E /* Main.storyboard */; };
+		805EE0A327366F76006F9A7E /* ConsumptionTaxApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 805EE0A127366F76006F9A7E /* ConsumptionTaxApp.xcdatamodeld */; };
+		805EE0A527366F78006F9A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805EE0A427366F78006F9A7E /* Assets.xcassets */; };
+		805EE0A827366F78006F9A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805EE0A627366F78006F9A7E /* LaunchScreen.storyboard */; };
+		805EE0B327366F79006F9A7E /* ConsumptionTaxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE0B227366F79006F9A7E /* ConsumptionTaxAppTests.swift */; };
+		805EE0BD27366F79006F9A7E /* ConsumptionTaxAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE0BC27366F79006F9A7E /* ConsumptionTaxAppUITests.swift */; };
+		805EE0BF27366F79006F9A7E /* ConsumptionTaxAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE0BE27366F79006F9A7E /* ConsumptionTaxAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805EE0AF27366F79006F9A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805EE08D27366F76006F9A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805EE09427366F76006F9A7E;
+			remoteInfo = ConsumptionTaxApp;
+		};
+		805EE0B927366F79006F9A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805EE08D27366F76006F9A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805EE09427366F76006F9A7E;
+			remoteInfo = ConsumptionTaxApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805EE09527366F76006F9A7E /* ConsumptionTaxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsumptionTaxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE09827366F76006F9A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		805EE09A27366F76006F9A7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		805EE09C27366F76006F9A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		805EE09F27366F76006F9A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		805EE0A227366F76006F9A7E /* ConsumptionTaxApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConsumptionTaxApp.xcdatamodel; sourceTree = "<group>"; };
+		805EE0A427366F78006F9A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805EE0A727366F78006F9A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		805EE0A927366F79006F9A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805EE0AE27366F79006F9A7E /* ConsumptionTaxAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsumptionTaxAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE0B227366F79006F9A7E /* ConsumptionTaxAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionTaxAppTests.swift; sourceTree = "<group>"; };
+		805EE0B827366F79006F9A7E /* ConsumptionTaxAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsumptionTaxAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805EE0BC27366F79006F9A7E /* ConsumptionTaxAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionTaxAppUITests.swift; sourceTree = "<group>"; };
+		805EE0BE27366F79006F9A7E /* ConsumptionTaxAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionTaxAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805EE09227366F76006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE0AB27366F79006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE0B527366F79006F9A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805EE08C27366F76006F9A7E = {
+			isa = PBXGroup;
+			children = (
+				805EE09727366F76006F9A7E /* ConsumptionTaxApp */,
+				805EE0B127366F79006F9A7E /* ConsumptionTaxAppTests */,
+				805EE0BB27366F79006F9A7E /* ConsumptionTaxAppUITests */,
+				805EE09627366F76006F9A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805EE09627366F76006F9A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805EE09527366F76006F9A7E /* ConsumptionTaxApp.app */,
+				805EE0AE27366F79006F9A7E /* ConsumptionTaxAppTests.xctest */,
+				805EE0B827366F79006F9A7E /* ConsumptionTaxAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805EE09727366F76006F9A7E /* ConsumptionTaxApp */ = {
+			isa = PBXGroup;
+			children = (
+				805EE09827366F76006F9A7E /* AppDelegate.swift */,
+				805EE09A27366F76006F9A7E /* SceneDelegate.swift */,
+				805EE09C27366F76006F9A7E /* ViewController.swift */,
+				805EE09E27366F76006F9A7E /* Main.storyboard */,
+				805EE0A427366F78006F9A7E /* Assets.xcassets */,
+				805EE0A627366F78006F9A7E /* LaunchScreen.storyboard */,
+				805EE0A927366F79006F9A7E /* Info.plist */,
+				805EE0A127366F76006F9A7E /* ConsumptionTaxApp.xcdatamodeld */,
+			);
+			path = ConsumptionTaxApp;
+			sourceTree = "<group>";
+		};
+		805EE0B127366F79006F9A7E /* ConsumptionTaxAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				805EE0B227366F79006F9A7E /* ConsumptionTaxAppTests.swift */,
+			);
+			path = ConsumptionTaxAppTests;
+			sourceTree = "<group>";
+		};
+		805EE0BB27366F79006F9A7E /* ConsumptionTaxAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				805EE0BC27366F79006F9A7E /* ConsumptionTaxAppUITests.swift */,
+				805EE0BE27366F79006F9A7E /* ConsumptionTaxAppUITestsLaunchTests.swift */,
+			);
+			path = ConsumptionTaxAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805EE09427366F76006F9A7E /* ConsumptionTaxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE0C227366F79006F9A7E /* Build configuration list for PBXNativeTarget "ConsumptionTaxApp" */;
+			buildPhases = (
+				805EE09127366F76006F9A7E /* Sources */,
+				805EE09227366F76006F9A7E /* Frameworks */,
+				805EE09327366F76006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsumptionTaxApp;
+			productName = ConsumptionTaxApp;
+			productReference = 805EE09527366F76006F9A7E /* ConsumptionTaxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805EE0AD27366F79006F9A7E /* ConsumptionTaxAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE0C527366F79006F9A7E /* Build configuration list for PBXNativeTarget "ConsumptionTaxAppTests" */;
+			buildPhases = (
+				805EE0AA27366F79006F9A7E /* Sources */,
+				805EE0AB27366F79006F9A7E /* Frameworks */,
+				805EE0AC27366F79006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805EE0B027366F79006F9A7E /* PBXTargetDependency */,
+			);
+			name = ConsumptionTaxAppTests;
+			productName = ConsumptionTaxAppTests;
+			productReference = 805EE0AE27366F79006F9A7E /* ConsumptionTaxAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		805EE0B727366F79006F9A7E /* ConsumptionTaxAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805EE0C827366F79006F9A7E /* Build configuration list for PBXNativeTarget "ConsumptionTaxAppUITests" */;
+			buildPhases = (
+				805EE0B427366F79006F9A7E /* Sources */,
+				805EE0B527366F79006F9A7E /* Frameworks */,
+				805EE0B627366F79006F9A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805EE0BA27366F79006F9A7E /* PBXTargetDependency */,
+			);
+			name = ConsumptionTaxAppUITests;
+			productName = ConsumptionTaxAppUITests;
+			productReference = 805EE0B827366F79006F9A7E /* ConsumptionTaxAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805EE08D27366F76006F9A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					805EE09427366F76006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					805EE0AD27366F79006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 805EE09427366F76006F9A7E;
+					};
+					805EE0B727366F79006F9A7E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 805EE09427366F76006F9A7E;
+					};
+				};
+			};
+			buildConfigurationList = 805EE09027366F76006F9A7E /* Build configuration list for PBXProject "ConsumptionTaxApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 805EE08C27366F76006F9A7E;
+			productRefGroup = 805EE09627366F76006F9A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805EE09427366F76006F9A7E /* ConsumptionTaxApp */,
+				805EE0AD27366F79006F9A7E /* ConsumptionTaxAppTests */,
+				805EE0B727366F79006F9A7E /* ConsumptionTaxAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805EE09327366F76006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE0A827366F78006F9A7E /* LaunchScreen.storyboard in Resources */,
+				805EE0A527366F78006F9A7E /* Assets.xcassets in Resources */,
+				805EE0A027366F76006F9A7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE0AC27366F79006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE0B627366F79006F9A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805EE09127366F76006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE09D27366F76006F9A7E /* ViewController.swift in Sources */,
+				805EE09927366F76006F9A7E /* AppDelegate.swift in Sources */,
+				805EE09B27366F76006F9A7E /* SceneDelegate.swift in Sources */,
+				805EE0A327366F76006F9A7E /* ConsumptionTaxApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE0AA27366F79006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE0B327366F79006F9A7E /* ConsumptionTaxAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805EE0B427366F79006F9A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805EE0BF27366F79006F9A7E /* ConsumptionTaxAppUITestsLaunchTests.swift in Sources */,
+				805EE0BD27366F79006F9A7E /* ConsumptionTaxAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805EE0B027366F79006F9A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805EE09427366F76006F9A7E /* ConsumptionTaxApp */;
+			targetProxy = 805EE0AF27366F79006F9A7E /* PBXContainerItemProxy */;
+		};
+		805EE0BA27366F79006F9A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805EE09427366F76006F9A7E /* ConsumptionTaxApp */;
+			targetProxy = 805EE0B927366F79006F9A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805EE09E27366F76006F9A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805EE09F27366F76006F9A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		805EE0A627366F78006F9A7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805EE0A727366F78006F9A7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805EE0C027366F79006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		805EE0C127366F79006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		805EE0C327366F79006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConsumptionTaxApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ConsumptionTaxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		805EE0C427366F79006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConsumptionTaxApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ConsumptionTaxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		805EE0C627366F79006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ConsumptionTaxAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsumptionTaxApp.app/ConsumptionTaxApp";
+			};
+			name = Debug;
+		};
+		805EE0C727366F79006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ConsumptionTaxAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsumptionTaxApp.app/ConsumptionTaxApp";
+			};
+			name = Release;
+		};
+		805EE0C927366F79006F9A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ConsumptionTaxAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConsumptionTaxApp;
+			};
+			name = Debug;
+		};
+		805EE0CA27366F79006F9A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2BQ443478;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kbanchi1111.ConsumptionTaxAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConsumptionTaxApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805EE09027366F76006F9A7E /* Build configuration list for PBXProject "ConsumptionTaxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE0C027366F79006F9A7E /* Debug */,
+				805EE0C127366F79006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE0C227366F79006F9A7E /* Build configuration list for PBXNativeTarget "ConsumptionTaxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE0C327366F79006F9A7E /* Debug */,
+				805EE0C427366F79006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE0C527366F79006F9A7E /* Build configuration list for PBXNativeTarget "ConsumptionTaxAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE0C627366F79006F9A7E /* Debug */,
+				805EE0C727366F79006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805EE0C827366F79006F9A7E /* Build configuration list for PBXNativeTarget "ConsumptionTaxAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805EE0C927366F79006F9A7E /* Debug */,
+				805EE0CA27366F79006F9A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		805EE0A127366F76006F9A7E /* ConsumptionTaxApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				805EE0A227366F76006F9A7E /* ConsumptionTaxApp.xcdatamodel */,
+			);
+			currentVersion = 805EE0A227366F76006F9A7E /* ConsumptionTaxApp.xcdatamodel */;
+			path = ConsumptionTaxApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 805EE08D27366F76006F9A7E /* Project object */;
+}
