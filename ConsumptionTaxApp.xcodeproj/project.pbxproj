@@ -17,6 +17,7 @@
 		805EE0B327366F79006F9A7E /* ConsumptionTaxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE0B227366F79006F9A7E /* ConsumptionTaxAppTests.swift */; };
 		805EE0BD27366F79006F9A7E /* ConsumptionTaxAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE0BC27366F79006F9A7E /* ConsumptionTaxAppUITests.swift */; };
 		805EE0BF27366F79006F9A7E /* ConsumptionTaxAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE0BE27366F79006F9A7E /* ConsumptionTaxAppUITestsLaunchTests.swift */; };
+		805EE0CC2736727A006F9A7E /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE0CB2736727A006F9A7E /* SumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		805EE0B827366F79006F9A7E /* ConsumptionTaxAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsumptionTaxAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805EE0BC27366F79006F9A7E /* ConsumptionTaxAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionTaxAppUITests.swift; sourceTree = "<group>"; };
 		805EE0BE27366F79006F9A7E /* ConsumptionTaxAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionTaxAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		805EE0CB2736727A006F9A7E /* SumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				805EE09A27366F76006F9A7E /* SceneDelegate.swift */,
 				805EE09C27366F76006F9A7E /* ViewController.swift */,
 				805EE09E27366F76006F9A7E /* Main.storyboard */,
+				805EE0CB2736727A006F9A7E /* SumViewController.swift */,
 				805EE0A427366F78006F9A7E /* Assets.xcassets */,
 				805EE0A627366F78006F9A7E /* LaunchScreen.storyboard */,
 				805EE0A927366F79006F9A7E /* Info.plist */,
@@ -265,6 +268,7 @@
 				805EE09927366F76006F9A7E /* AppDelegate.swift in Sources */,
 				805EE09B27366F76006F9A7E /* SceneDelegate.swift in Sources */,
 				805EE0A327366F76006F9A7E /* ConsumptionTaxApp.xcdatamodeld in Sources */,
+				805EE0CC2736727A006F9A7E /* SumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
