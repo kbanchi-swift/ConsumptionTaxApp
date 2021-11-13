@@ -31,7 +31,24 @@ class SumViewController: UIViewController {
     }
     
     @IBAction func tapShareButton(_ sender: Any) {
-        showAlert(title: "Share", message: "share this consumption tax.")
+//        showAlert(title: "Share", message: "share this consumption tax.")
+        let shareText = "#スパルタキャンプやべぇ"
+        let shareWebsite = NSURL(string: "http://hachimantai.spartacamp.jp/")!
+        
+        let activityItems = [shareText, shareWebsite] as [Any]
+        let activityVC = UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
+        
+        let excludeActivityTypes = [
+            UIActivity.ActivityType.postToFacebook,
+            UIActivity.ActivityType.postToTwitter,
+            UIActivity.ActivityType.message,
+            UIActivity.ActivityType.saveToCameraRoll,
+            UIActivity.ActivityType.print
+        ]
+        
+        activityVC.excludedActivityTypes = excludeActivityTypes
+        
+        self.present(activityVC, animated: true, completion: nil)
     }
     
     func showAlert(title: String, message: String) {

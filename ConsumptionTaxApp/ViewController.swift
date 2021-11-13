@@ -29,6 +29,18 @@ class ViewController: UIViewController {
         if (userDefaults.object(forKey: "amounts") != nil) {
             amounts = userDefaults.object(forKey: "amounts") as! [String]
         }
+        
+        amountInputTextField.addTarget(self, action: #selector(textFieldDidChange(sender:)), for: .editingChanged)
+        
+    }
+    
+    @objc func textFieldDidChange(sender: UITextField) {
+        let input = Double(amountInputTextField.text!) ?? 0.0
+        if taxSegmentedControl.selectedSegmentIndex == 0 {
+            amountLabel.text = String(calcConsumptionTax(cost: input, tax: 0.1))
+        } else {
+            amountLabel.text = String(calcConsumptionTax(cost: input, tax: 0.08))
+        }
     }
 
     @IBAction func tapTaxSegmentedControl(_ sender: Any) {
